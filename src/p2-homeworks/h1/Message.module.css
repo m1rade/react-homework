@@ -31,6 +31,7 @@ img {
 
 .sender_name {
     color: #755d99;
+    font-weight: bold;
     margin: 0 0 5px 0;
 }
 
