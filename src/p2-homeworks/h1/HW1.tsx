@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 import Message from "./Message";
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Some Name',
+    avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
+    name: "Some Name",
     message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eligendi porro eaque iste quo unde?",
-    time: '22:00',
+    time: "22:00",
 }
 
 function HW1() {
@@ -32,3 +32,5 @@ function HW1() {
 }
 
 export default HW1
+
+
