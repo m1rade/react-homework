@@ -25,7 +25,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         // check invalid input
         const trimmedName = name.trim();
         if (trimmedName) {
-            alert(`Hello ${name} !`);
+            alert(`Hello ${name}!`);
             setName("");
             addUserCallback(trimmedName);
         } else {
