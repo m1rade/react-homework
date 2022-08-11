@@ -14,7 +14,7 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers, addUserOnKey} // деструктуризация пропсов
 ) => {
-    const inputClass = error ? s.error + ' ' + s.input : s.input;
+    const inputClass = error ? s.error_input + ' ' + s.input : s.input;
 
     return (
         <div>
