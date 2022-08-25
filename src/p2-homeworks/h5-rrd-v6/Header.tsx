@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react"
+import PreJunior from "./pages/PreJunior";
+import Junior from "./pages/Junior";
+import JuniorPlus from "./pages/JuniorPlus";
 
 function Header() {
     return (
         <div>
-            // add NavLinks
-
+            <PreJunior/>
+            <Junior/>
+            <JuniorPlus/>
         </div>
     )
 }
