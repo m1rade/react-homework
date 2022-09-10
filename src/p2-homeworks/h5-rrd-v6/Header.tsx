@@ -1,14 +1,17 @@
 import React from "react"
-import PreJunior from "./pages/PreJunior";
-import Junior from "./pages/Junior";
-import JuniorPlus from "./pages/JuniorPlus";
+import {NavLink} from "react-router-dom";
+import {PATH} from "./Pages";
+import s from "./Header.module.css";
 
 function Header() {
     return (
         <div>
-            <PreJunior/>
-            <Junior/>
-            <JuniorPlus/>
+            <NavLink className={({isActive}) => isActive ? s.activeNavLink : s.navLinkItem} to={PATH.PRE_JUNIOR}>Pre
+                Junior</NavLink>
+            <NavLink className={({isActive}) => isActive ? s.activeNavLink : s.navLinkItem}
+                     to={PATH.JUNIOR}>Junior</NavLink>
+            <NavLink className={({isActive}) => isActive ? s.activeNavLink : s.navLinkItem}
+                     to={PATH.JUNIOR_PLUS}>Junior+</NavLink>
         </div>
     )
 }

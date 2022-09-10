@@ -1,0 +1,15 @@
+.navLinkItem {
+    margin: 7px;
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 0 0 2px #000;
+}
+
+.activeNavLink {
+    margin: 7px;
+    padding: 2px;
+    background-color: papayawhip;
+    text-decoration: none;
+    color: brown;
+    text-shadow: 0 0 2px #fff;
+}
