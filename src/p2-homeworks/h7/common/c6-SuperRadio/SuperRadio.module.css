@@ -1,0 +1,31 @@
+.superRadio {
+    font-family: sans-serif;
+    margin: 5px 5px;
+    font-size: 12pt;
+}
+
+.superRadio label {
+    margin-right: 8px;
+}
+
+.superRadio input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #412b60;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+}
+
+.superRadio input[type="radio"]:checked {
+    border: 6px solid #3e0489;
+}
