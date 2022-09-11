@@ -1,12 +1,13 @@
 .navLinkItem {
     margin: 7px;
     text-decoration: none;
-    color: yellow;
-    text-shadow: 0 0 2px #000;
+    color: #FFDA29;
+    font-weight: bold;
+    text-shadow: 0 0 2px #0c6474;
 }
 
 .navLinkItem:hover {
-    color: blueviolet;
+    color: #0c6474;
 }
 
 .activeNavLink {
@@ -14,6 +15,7 @@
     padding: 2px;
     background-color: papayawhip;
     text-decoration: none;
-    color: brown;
+    font-weight: bold;
+    color: #eb417b;
     text-shadow: 0 0 2px #fff;
 }

@@ -17,7 +17,7 @@ input[type="radio"] {
     width: 16px;
     height: 16px;
 
-    border: 2px solid #320a28;
+    border: 2px solid #232e3c;
     transition: 0.2s all linear;
     outline: none;
     margin-right: 5px;
@@ -28,5 +28,5 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-    border: 6px solid #320a28;
+    border: 6px solid #eb417b;
 }

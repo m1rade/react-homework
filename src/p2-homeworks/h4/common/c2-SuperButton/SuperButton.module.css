@@ -1,7 +1,24 @@
 .default {
-
+    background-color: #1A5190;
+    color: white;
+    min-width: 85px;
+    min-height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 12px 2px rgb(144, 89, 26);
 }
 
 .red {
     background: red;
+}
+
+.default:hover {
+    background-color: #002784;
+    transition: 0.08s;
+}
+
+.default:active {
+    box-shadow: 2px 2px 4px 2px rgb(144, 89, 26);
+    transform: translateY(3px);
 }
