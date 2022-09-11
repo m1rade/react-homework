@@ -5,6 +5,10 @@
     text-shadow: 0 0 2px #000;
 }
 
+.navLinkItem:hover {
+    color: blueviolet;
+}
+
 .activeNavLink {
     margin: 7px;
     padding: 2px;
