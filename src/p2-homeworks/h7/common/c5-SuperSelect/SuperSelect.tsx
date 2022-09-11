@@ -10,7 +10,7 @@ type SuperSelectPropsType = DefaultSelectPropsType & {
 
 const SuperSelect: React.FC<SuperSelectPropsType> = (
     {
-        options,
+        options, className,
         onChange, onChangeOption,
         ...restProps
     }
@@ -24,7 +24,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         onChangeOption && onChangeOption(e.currentTarget.value);
     }
 
-    const superSelectClassName = `${s.superSelect}`
+    const superSelectClassName = `${s.superSelect} ${className ? className : ""}`
 
     return (
         <select className={superSelectClassName} onChange={onChangeCallback} {...restProps}>

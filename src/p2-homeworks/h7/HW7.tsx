@@ -20,14 +20,12 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-            <div>
-                <SuperRadio
-                    name={"radio"}
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
-                />
-            </div>
+            <SuperRadio
+                name={"radio"}
+                options={arr}
+                value={value}
+                onChangeOption={onChangeOption}
+            />
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
