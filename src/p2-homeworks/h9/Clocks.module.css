@@ -1,0 +1,13 @@
+.clock {
+    font-weight: bold;
+}
+
+.time {
+    margin: 10px 20px;
+    max-width: fit-content;
+    background-color: aquamarine;
+}
+
+.date {
+    margin: 10px 20px;
+}
